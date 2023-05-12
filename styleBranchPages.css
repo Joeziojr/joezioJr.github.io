@@ -2,6 +2,9 @@ body{
     background-color: gray;
   }
 
+form{
+  border-bottom: #000000;
+}
 
 table {
     border-style: groove;
