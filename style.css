@@ -2,6 +2,19 @@ body{
   background-color: gray;
 }
 
+table {
+  border-style: groove;
+  width: 100%;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #000000;
+}
+th {
+  background-color: #b91d1d;
+}
+
 
 /*Classe usada para criar um menu navegável*/
 .navBar {
