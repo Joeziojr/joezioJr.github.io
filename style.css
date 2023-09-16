@@ -2,19 +2,29 @@
 
 /*The ones without anything before them, are some html elements, such as "body"; "footer" and so*/
 body{
-  background-color: gray;
+  background-color:rgb(226, 226, 226);
 }
 
 footer{
+  position: absolute;
+  left: 0;
   bottom: 0;
   width: 100%;
+  background-color: black;
+  color: white;
   text-align: center;
   padding: 0px;
-  background-color: #000000;
-  border-top: solid;
-  border-bottom: solid;
-  border-width: 0px;
-  border-color: rgb(255, 0, 0);
+  height: 35px;
+  
+}
+
+h1{
+  font-size: 150%;
+
+}
+
+p{
+  font-size: 110%;
 }
 
 #repository {
@@ -22,11 +32,19 @@ footer{
   color: #2bd899;
 }
 
+#imagemIndex{
+  text-align: center;
+}
+
 /*Classe usada para estilizar o menu navegável*/
 .navBar {
     width: 100%;
     background-color: #333;
+    padding: 0%;
     overflow: auto;
+    text-align: center;
+    align-content: center;
+    
   }
   
   /* Estiliza os hiperlinks da classe navBar, dentro da div*/
@@ -34,11 +52,13 @@ footer{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 15px;
     width: 20%;
+    margin-top: 0%;
+    
   }
   
   /*Muda a cor do hiperlink onde o mouse está*/
@@ -53,6 +73,11 @@ footer{
     background-color: #000000;
     color: white;
   }
+
+
+#centerItens{
+  align-content: center;
+}
 
 /*--------------------------------------------------------------------------------------------*/
 
