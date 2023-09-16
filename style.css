@@ -1,22 +1,28 @@
+
+
+/*The ones without anything before them, are some html elements, such as "body"; "footer" and so*/
 body{
   background-color: gray;
 }
 
-table {
-  border-style: groove;
+footer{
+  bottom: 0;
   width: 100%;
-}
-th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #000000;
-}
-th {
-  background-color: #b91d1d;
+  text-align: center;
+  padding: 0px;
+  background-color: #000000;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 0px;
+  border-color: rgb(255, 0, 0);
 }
 
+#repository {
+  text-decoration: none;
+  color: #2bd899;
+}
 
-/*Classe usada para criar um menu navegável*/
+/*Classe usada para estilizar o menu navegável*/
 .navBar {
     width: 100%;
     background-color: #333;
