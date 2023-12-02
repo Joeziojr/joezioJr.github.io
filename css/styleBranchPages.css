@@ -13,9 +13,70 @@ table {
     margin-left: 160px;
 }
 
-.imagem{
-  text-align: center;
+/* ============CARDS================== */
+
+.container {
+  margin-left: 160px;
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  overflow: hidden;
 }
+ 
+ .card {
+  width: 100%;
+  max-width: 300px; 
+  border: 1px solid #ccc;
+  background: #cdcdcd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px auto; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 60%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.card .content {
+  padding: 15px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Botões de navegação */
+.prev, .next {
+  cursor: pointer;
+  position:absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* ======================================================= */
+
 
 th, td {
     padding: 8px;
@@ -34,13 +95,13 @@ h1{
 
 }
 
-h2{
+.h2{
     margin-left: 160px;
     font-size: 200%;
 
 }
 
-p{
+.p{
     margin-left: 160px;
     font-size: 160%;
 }
@@ -49,6 +110,8 @@ p{
     margin-top: 0cm;
     margin-left: 40%;
 }
+
+/* =================== SIDEBAR ====================== */
 
 /* Classe que cria uma navigation bar horizontal */
 .sidebar {
@@ -84,6 +147,9 @@ p{
     color: white;
   }
 
+
+  
+  /* ===============FOOTER============================== */
 
   footer{
     position: absolute;
